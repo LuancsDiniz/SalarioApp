@@ -1,0 +1,18 @@
+﻿<%@ Page Language="C#" AutoEventWireup="true" CodeBehind="Salarios.aspx.cs" Inherits="SalarioApp.Application.Salarios" %>
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server"><title>Salários</title></head>
+<body>
+<form runat="server">
+    <asp:Button ID="btnCalc" runat="server" Text="Calcular" OnClick="Calc_Click" Style="margin-bottom: 5px;" />
+    <asp:Label ID="msg" runat="server" />
+    <asp:GridView ID="grid" runat="server" AutoGenerateColumns="false">
+        <Columns>
+            <asp:BoundField DataField="pessoa_nome" HeaderText="Nome" />
+            <asp:BoundField DataField="cargo_nome" HeaderText="Cargo" />
+            <asp:BoundField DataField="salario" HeaderText="Salário" DataFormatString="{0:C}" />
+        </Columns>
+    </asp:GridView>
+</form>
+</body>
+</html>
