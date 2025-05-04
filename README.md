@@ -127,19 +127,3 @@ xml
 4. Abra o projeto no Visual Studio.
 5. Execute a aplicação ('F5').
 6. Acesse a tela de salários, clique em "Calcular" e veja os resultados.
-
-## Estrutura de Pastas
-
-SalarioApp/
-│
-├── Application/
-│   ├── Salarios.aspx
-│   ├── Salarios.aspx.cs
-│   └── Salarios.aspx.designer.cs
-│
-├── Data/
-│   └── SalarioRepository.cs
-│
-├── Global.asax
-├── Web.config
-├── packages.config
