@@ -1,5 +1,4 @@
 ﻿<%@ Page Language="C#" AutoEventWireup="true" CodeBehind="Salarios.aspx.cs" Inherits="SalarioApp.Application.Salarios" %>
-<!-- Diretiva da página que define linguagem, código-behind e classe herdada -->
 
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head runat="server"><title>Salários</title></head>
